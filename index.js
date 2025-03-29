@@ -65,9 +65,16 @@ return  `<h1 id="order-text">${order.name} <a data-remove="${order.id}">remove</
     
 }
 
-document.getElementById('pay-btn').addEventListener('click', function(){
-          ordersDiv.innerHTML =`<div id="payment-complete">
+document.getElementById('pay-btn').addEventListener('click', function(e){
+    e.preventDefault()
+    if (document.getElementById('payment-modal').checkValidity()){
+        ordersDiv.innerHTML =`<div id="payment-complete">
         <p>Thanks, ${document.getElementById('fname').value}! Your order is on its way!</p>
     </div>`
     document.querySelector('.payment-container').style.display = 'none'
+    ordersArray.length = 0}
+    else{
+        document.getElementById('payment-modal').reportvalidity()
+    }
+
     })
