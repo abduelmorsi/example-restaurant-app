@@ -1,4 +1,4 @@
-import { menuArray } from '/data'
+import { menuArray } from './data.js'
 
 const items = document.getElementById('items')
 const ordersDiv = document.getElementById('orders-div')
