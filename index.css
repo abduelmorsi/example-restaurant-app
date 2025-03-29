@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    font-family: Smythe, sans-serif;
+    font-weight: 400;
+} 
+nav{
+    margin-top:0;
+    padding:20px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/8453/64ec/acaeaea44c5e3a8cd7159c5d52f26662?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JHvTJ2~gzzOMLpENTndk~cC6Vedf0wu4SwZFBImKmuYEkG1JMLcwBDXH2ijhUf3pn4vIE4dHI0IPWzMK9bwcAGMb5eB6alxzDIrl5~US4zOVeAIKCzUMCOmpPEJW0W3vGGPJGIOHGe1VcBQnll5iSkw6nDszPcwfStlAd-qnHANqoxL1Xf3APPrz9P52DWYmoi-d~xMvyeDbSgfty1NYCirtfKWeURnlizFRFuUyvkYdpK~bzILL6wxQ9j-Vcdp6p1PCyA-sGEXG9izzzv9uJVrLuypIj6Eu9UJ9YC9EgGxX8mqMqdY~8nTuv8KYeLi0tUxiDveTMCWcw61-Uf0mKg__");
+    height: 167px;
+    top: -153px;
+    /* position: absolute; */
+    z-index: -1;
+    background-size:cover;
+    background-position: center;
+    overflow:hidden;
+
+}
+nav h1{
+    z-index: 5;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 24px;
+    text-align: center; 
+    width: 169px;
+    height: 24px;
+    color: white;
+    margin-left:46px;
+    margin-top:46px;
+}
+
+nav h2{
+    width: 275px;
+    height: 8px;
+
+    color: white;
+    margin-left: 46px;
+    margin-top:19px;
+}
+
+#items{
+    margin:auto;
+}
+.item{
+    width:  508px;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;   
+    border-bottom: 1px solid #D2D2D2;
+    margin:45px auto;
+    padding-bottom:50px;
+}
+
+.item h1{
+    font-size: 28px;
+    line-height: 16.8px;
+    font-weight: 400;   
+    color:#000000;
+}
+
+.item h2{
+    color: #8B8B8B;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;   
+}
+
+.item h3{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+#order-btn{
+    width: 50px;
+    height: 50px;
+    top: 242px;
+    left: 504px;
+    border-width: 1.5px;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-left: auto;
+    font-family: Inter;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+#item-id{
+    font-family: Inter;
+font-weight: 400;
+font-size: 78.72px;
+line-height: 98.4px;
+letter-spacing: -2%;
+text-align: center;
+vertical-align: middle;
+float:left;
+}
+
+#item-info{
+    padding-left: 20px;
+    float:left;
+}
+
+#your-order{
+    text-align: center;
+    margin: auto;
+    font-weight: 400;
+}
+
+.orders{
+    border-bottom: 2px solid #393333;
+    width:508px;
+    margin:auto;
+}
+
+#order-text a{
+    font-family: Verdana;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #BBBBBB;
+    text-decoration: none;
+    margin:auto auto auto 13px;
+}
+
+#orders-div span{
+    font-family: Smythe;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    margin-left: auto;
+
+}
+
+#order-text{
+    display:flex;
+    font-weight: 400;
+}
+
+.total{
+    font-weight:400;
+    width:508px;
+    margin:auto;
+}
+
+.total h1{
+    font-family: Smythe;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    display:flex;
+}
+
+.total span{
+    margin-left:auto;
+}
+
+#complete-order{
+    background-color: #16DB99;
+    width: 508px;
+    height: 60px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border:0;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:white;
+    margin:53px auto;
+}
+
+#payment-modal h1{
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.12px;
+    margin: 47px 110px 46px 108px;
+}
+
+#payment-modal{
+     display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 25px;
+    gap:25px;
+    font-family: Verdana;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31.12px;
+
+}
+
+#payment-modal input{
+    padding: 16px 233px 14px 26px;
+    border: 1.3px solid #757575;
+    border-radius: 3.89px;
+
+}
+
+#pay-btn{
+    width: 475px;
+    height: 70px;
+    border-radius: 3.89px;
+    background: #16DB99;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31.12px;
+    color:white;    
+    border:none;
+    margin-top:46px;
+    text-align: center;
+}
+
+.payment-container{
+    width: 524px;
+    height: 542px;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    border-radius: 3.89px;
+    position: fixed;
+   
+    margin:auto;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 5.19px 5.19px 255.44px 0px #00000080;
+
+}
+
+#payment-complete{
+    width: 504px;
+height: 120px;
+top: 789px;
+border-radius: 3px;
+font-family: Smythe;
+font-weight: 400;
+font-size: 32px;
+line-height: 16.8px;
+color: #065F46;
+background-color:#ECFDF5;
+margin: auto auto 250px auto;
+display:flex;
+justify-content: center;
+align-items: center;
+}
